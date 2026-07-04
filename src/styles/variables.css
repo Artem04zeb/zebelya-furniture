@@ -1,0 +1,15 @@
+:root {
+  --warm-white: #f6efe6;
+  --soft-white: #fffaf3;
+  --graphite: #24221f;
+  --muted-graphite: #625b52;
+  --wood: #654126;
+  --brass: #a98045;
+  --line: rgba(36, 34, 31, 0.22);
+
+  --container-width: 1500px;
+  --radius-sm: 4px;
+  --radius-button: 2px;
+  --shadow-card: 0 24px 56px rgba(36, 34, 31, 0.07);
+  --transition: 180ms ease;
+}
