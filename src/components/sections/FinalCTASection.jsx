@@ -35,16 +35,11 @@ function FinalCTASection() {
           </div>
 
           <div className="final-cta__actions">
-            <Button href="#contact">Написать в мессенджер</Button>
+            <Button href="https://max.ru/u/f9LHodD0cOJi21qF9EFxrFZ8rwu33cRrsAwjLjH0Ei1S4ZGYTMkd2EveFzw">Написать в мессенджер</Button>
             <Button href="tel:+79885006605" variant="secondary">
               Позвонить
             </Button>
           </div>
-
-          <p className="final-cta__note">
-            Не нужно готовить техническое задание — достаточно начать с одного
-            сообщения.
-          </p>
         </div>
       </Container>
     </section>

@@ -14,7 +14,6 @@ function ProjectsPreview() {
               дом, сценарий жизни и эстетику интерьера.
             </p>
           </div>
-          <a className="projects-preview__link" href="#projects">Смотреть больше работ</a>
         </div>
 
         <div className="projects-grid" aria-label="Избранные проекты">

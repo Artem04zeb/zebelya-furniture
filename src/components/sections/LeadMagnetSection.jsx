@@ -29,7 +29,7 @@ function LeadMagnetSection() {
             </div>
 
             <div className="lead-magnet__actions">
-              <Button href="#contact">Написать в мессенджер</Button>
+              <Button href="https://max.ru/u/f9LHodD0cOJi21qF9EFxrFZ8rwu33cRrsAwjLjH0Ei1S4ZGYTMkd2EveFzw">Написать в мессенджер</Button>
               <Button href="tel:+79885006605" variant="secondary">
                 Позвонить
               </Button>

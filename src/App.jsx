@@ -4,7 +4,7 @@ import ProjectsPreview from "./components/sections/ProjectsPreview";
 import ScenariosSection from "./components/sections/ScenariosSection";
 import AuthorApproachSection from "./components/sections/AuthorApproachSection";
 import TurnkeyControlSection from "./components/sections/TurnkeyControlSection";
-import WorkProcessSection from "./components/sections/WorkProcessSection";
+// import WorkProcessSection from "./components/sections/WorkProcessSection"; 
 import CaseStoriesSection from "./components/sections/CaseStoriesSection";
 import FAQSection from "./components/sections/FAQSection";
 import FinalCTASection from "./components/sections/FinalCTASection";
@@ -20,7 +20,7 @@ function App() {
         <ScenariosSection />
         <AuthorApproachSection />
         <TurnkeyControlSection />
-        <WorkProcessSection />
+        {/* <WorkProcessSection /> */}
         <CaseStoriesSection />
         <FAQSection />
         <FinalCTASection />

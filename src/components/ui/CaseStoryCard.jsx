@@ -1,12 +1,15 @@
+import CaseImageSlider from "./CaseImageSlider";
+
 function CaseStoryCard({ story, reversed = false }) {
   const className = ["case-story", reversed ? "case-story--reversed" : ""]
     .filter(Boolean)
     .join(" ");
+  const images = story.images || [{ src: story.image, alt: story.alt }];
 
   return (
     <article className={className}>
       <figure className="case-story__media">
-        <img src={story.image} alt={story.alt} loading="lazy" decoding="async" />
+        <CaseImageSlider images={images} caseTitle={story.title} />
       </figure>
 
       <div className="case-story__content">

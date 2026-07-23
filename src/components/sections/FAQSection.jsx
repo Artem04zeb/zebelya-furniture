@@ -25,14 +25,14 @@ function FAQSection() {
         <div className="faq__body">
           <aside className="faq__accent" aria-label="Как начать проект">
             <p className="faq__accent-title">
-              Не нужно знать все технические детали заранее
+              Не нужно знать детали заранее
             </p>
             <p className="faq__accent-text">
               Достаточно описать задачу своими словами. Мы поможем перевести её
               в понятный проект: с замером, материалами, конструкцией, сметой и
               дальнейшей реализацией.
             </p>
-            <Button href="#contact" variant="secondary" className="faq__button">
+            <Button href="https://max.ru/u/f9LHodD0cOJi21qF9EFxrFZ8rwu33cRrsAwjLjH0Ei1S4ZGYTMkd2EveFzw" variant="secondary" className="faq__button">
               Задать вопрос в мессенджере
             </Button>
             <p className="faq__accent-note">

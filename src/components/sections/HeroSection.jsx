@@ -3,11 +3,21 @@ import Button from "../ui/Button";
 function HeroSection() {
   return (
     <section className="hero" aria-labelledby="hero-title">
-      <img
+      <video
         className="hero__image"
-        src="/images/hero/hero-interior.png"
-        alt="Интерьер с корпусной мебелью, деревянными фасадами и кухонной зоной"
-      />
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="metadata"
+        aria-hidden="true"
+        onLoadedMetadata={(event) => {
+          event.currentTarget.currentTime = 0;
+          event.currentTarget.playbackRate = 0.75;
+        }}
+      >
+        <source src="/videos/video-hero-compressed.mp4" type="video/mp4" />
+      </video>
       <div className="hero__shade" aria-hidden="true" />
 
       <div className="hero__content">
@@ -24,7 +34,7 @@ function HeroSection() {
         <p className="hero__details">Бесплатный замер · Дизайн-проект · Договор · Гарантия · Монтаж</p>
 
         <div className="hero__actions" aria-label="Связаться с нами">
-          <Button href="#contact">Написать в мессенджер</Button>
+          <Button href="https://max.ru/u/f9LHodD0cOJi21qF9EFxrFZ8rwu33cRrsAwjLjH0Ei1S4ZGYTMkd2EveFzw">Написать в мессенджер</Button>
           <Button href="tel:+79885006605" variant="secondary">
             Позвонить
           </Button>
