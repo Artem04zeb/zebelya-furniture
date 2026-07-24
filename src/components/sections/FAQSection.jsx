@@ -12,7 +12,7 @@ function FAQSection() {
   };
 
   return (
-    <section className="faq" aria-labelledby="faq-title">
+    <section className="faq" id="faq" aria-labelledby="faq-title">
       <Container className="faq__inner">
         <SectionHeader
           className="faq__header"
@@ -28,12 +28,12 @@ function FAQSection() {
               Не нужно знать детали заранее
             </p>
             <p className="faq__accent-text">
-              Достаточно описать задачу своими словами. Мы поможем перевести её
-              в понятный проект: с замером, материалами, конструкцией, сметой и
+              Достаточно описать задачу своими словами. Мы поможем перевести её&nbsp;в 
+              понятный проект: с замером, материалами, конструкцией, сметой и
               дальнейшей реализацией.
             </p>
             <Button href="https://max.ru/u/f9LHodD0cOJi21qF9EFxrFZ8rwu33cRrsAwjLjH0Ei1S4ZGYTMkd2EveFzw" variant="secondary" className="faq__button">
-              Задать вопрос в мессенджере
+              Задать вопрос в&nbsp;мессенджере
             </Button>
             <p className="faq__accent-note">
               Можно начать с одного сообщения, фото или плана помещения.

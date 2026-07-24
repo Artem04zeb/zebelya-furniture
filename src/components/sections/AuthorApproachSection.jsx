@@ -13,7 +13,7 @@ function AuthorApproachSection() {
   };
 
   return (
-    <section className="author-approach" aria-labelledby="author-approach-title">
+    <section className="author-approach" id="author" aria-labelledby="author-approach-title">
       <div className="author-approach__inner">
         <div className="author-approach__panel">
           <img
@@ -22,26 +22,26 @@ function AuthorApproachSection() {
             data-fallback="wide"
             alt="Ашот Зебелян, автор корпусной мебели на заказ"
             onError={handleImageFallback}
-          />
+          />,
           <div className="author-approach__overlay" aria-hidden="true" />
 
           <div className="author-approach__content">
             <p className="author-approach__eyebrow">О подходе</p>
             <h2 id="author-approach-title">
-              Авторский подход к мебели, в которой будут жить
+              Авторский подход к&nbsp;мебели, в которой будут жить
             </h2>
 
             <div className="author-approach__text">
               <p>
                 Меня зовут Ашот Зебелян. Я занимаюсь корпусной мебелью на заказ
-                и смотрю на неё не только как на предмет интерьера, а как на
+                и&nbsp;смотрю на неё не только как на предмет интерьера, а как на
                 часть пространства и образа жизни человека.
               </p>
               <p>
-                Мой путь начался с мебельного цеха ещё до университета. Позже я
-                получил профильное образование в Академии Строганова и соединил
+                Мой путь начался с мебельного цеха ещё до университета. Позже я&nbsp;получил 
+                профильное образование в Академии Строганова и соединил
                 практический опыт производства с пониманием композиции,
-                эстетики и проектирования пространства.
+                эстетики и&nbsp;проектирования пространства.
               </p>
             </div>
 
@@ -55,7 +55,7 @@ function AuthorApproachSection() {
                 <div>
                   <h3>Сначала сценарий жизни</h3>
                   <p>
-                    Понимаем, как вы храните вещи, готовите и используете
+                    Понимаем, как вы храните вещи, готовите и&nbsp;используете
                     пространство каждый день.
                   </p>
                 </div>
@@ -67,7 +67,7 @@ function AuthorApproachSection() {
                   <h3>Дизайн, который можно реализовать</h3>
                   <p>
                     Проектируем с учётом конструкции, материалов, фурнитуры,
-                    производства и монтажа.
+                    производства и&nbsp;монтажа.
                   </p>
                 </div>
               </article>
@@ -77,7 +77,7 @@ function AuthorApproachSection() {
                 <div>
                   <h3>Внимание к деталям</h3>
                   <p>
-                    Цвет, фактура, ручки, свет и внутреннее наполнение должны
+                    Цвет, фактура, ручки, свет и&nbsp;внутреннее наполнение должны
                     работать вместе.
                   </p>
                 </div>

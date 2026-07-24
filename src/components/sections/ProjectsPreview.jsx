@@ -8,9 +8,9 @@ function ProjectsPreview() {
         <div className="projects-preview__header">
           <div className="projects-preview__copy">
             <p className="projects-preview__eyebrow">Портфолио</p>
-            <h2 id="projects-title">Реальные проекты, в которых мебель стала частью пространства</h2>
+            <h2 id="projects-title">Реальные проекты, в&nbsp;которых мебель стала частью пространства</h2>
             <p className="projects-preview__lead">
-              Кухни, гардеробные и шкафные системы, спроектированные под конкретный
+              Кухни, гардеробные и шкафные системы, спроектированные под&nbsp;конкретный
               дом, сценарий жизни и эстетику интерьера.
             </p>
           </div>

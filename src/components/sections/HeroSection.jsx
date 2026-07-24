@@ -2,7 +2,7 @@ import Button from "../ui/Button";
 
 function HeroSection() {
   return (
-    <section className="hero" aria-labelledby="hero-title">
+    <section className="hero" id="home" aria-labelledby="hero-title">
       <video
         className="hero__image"
         autoPlay

@@ -4,7 +4,7 @@ import CaseStoryCard from "../ui/CaseStoryCard";
 
 function CaseStoriesSection() {
   return (
-    <section className="project-stories" aria-labelledby="project-stories-title">
+    <section className="project-stories" id="cases" aria-labelledby="project-stories-title">
       <div className="project-stories__inner">
         <header className="project-stories__header">
           <div className="project-stories__copy">

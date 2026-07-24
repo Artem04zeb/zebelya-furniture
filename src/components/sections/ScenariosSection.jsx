@@ -31,14 +31,14 @@ function ScenariosSection() {
   }, [isPaused]);
 
   return (
-    <section className="furniture-for-life" aria-labelledby="furniture-for-life-title">
+    <section className="furniture-for-life" id="approach" aria-labelledby="furniture-for-life-title">
       <div className="furniture-for-life__inner">
         <div className="furniture-for-life__layout">
           <div className="furniture-for-life__content">
             <div className="furniture-for-life__copy">
               <p className="furniture-for-life__eyebrow">Подход</p>
               <h2 id="furniture-for-life-title">
-                Мебель, которая начинается с образа жизни
+                Мебель, которая начинается с&nbsp;образа&nbsp;жизни
               </h2>
             </div>
 

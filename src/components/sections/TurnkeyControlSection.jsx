@@ -5,7 +5,7 @@ import Button from "../ui/Button";
 function TurnkeyControlSection() {
   return (
     <>
-      <section className="turnkey-control" aria-labelledby="turnkey-control-title">
+      <section className="turnkey-control" id="turnkey" aria-labelledby="turnkey-control-title">
         <div className="turnkey-control__background" aria-hidden="true">
           <img
             className="turnkey-control__image"
@@ -32,10 +32,6 @@ function TurnkeyControlSection() {
               <p className="turnkey-control__route">
                 Один проект — одна команда — один понятный маршрут до готового
                 результата.
-              </p>
-              <p className="turnkey-control__accent">
-                Вам не нужно разбираться в мелочах. Мы переводим вашу задачу в
-                проект, производство и установленную мебель.
               </p>
             </div>
 

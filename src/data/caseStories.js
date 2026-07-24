@@ -5,7 +5,7 @@ export const caseStories = [
     images: [
       {
         src: "/images/cases/1wardrobe/1.jpg",
-        alt: "Гардеробная с глубокими синими фасадами и выразительными фактурами",
+        alt: "Гардеробная сглубокими синими фасадами и выразительными фактурами",
       },
       {
         src: "/images/cases/1wardrobe/2.jpg",

@@ -17,7 +17,7 @@ function FinalCTASection() {
         <div className="final-cta__content">
           <p className="final-cta__eyebrow">Обсудим проект</p>
           <h2 id="final-cta-title">
-            Расскажите о вашем пространстве — подскажем, с чего начать
+            Расскажите о вашем пространстве — подскажем, с&nbsp;чего&nbsp;начать
           </h2>
           <p className="final-cta__lead">
             Пришлите план, фото помещения, референсы или просто опишите задачу.
